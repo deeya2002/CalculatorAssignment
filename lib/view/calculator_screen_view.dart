@@ -1,4 +1,3 @@
-
 import 'package:calculatorapp/app/core/common/button_view.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
@@ -42,7 +41,7 @@ class _CalculatorViewState extends State<CalculatorView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Calculator App'),
+        title: const Center(child: Text('Calculator App')),
         automaticallyImplyLeading: false,
       ),
       body: Column(
@@ -97,8 +96,7 @@ class _CalculatorViewState extends State<CalculatorView> {
         crossAxisSpacing: 6,
         mainAxisSpacing: 6,
         padding: const EdgeInsets.all(5),
-        childAspectRatio:
-            0.84, 
+        childAspectRatio: 0.84,
         children: List.generate(
           buttons.length,
           (index) => ButtonsView(
