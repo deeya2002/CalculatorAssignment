@@ -1,7 +1,4 @@
-
-
-
-import 'package:calculator/view/calculator_screen_view.dart';
+import 'package:calculatorapp/view/calculator_screen_view.dart';
 
 class AppRoute {
   AppRoute._();

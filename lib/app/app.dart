@@ -1,5 +1,6 @@
-import 'package:calculator/app/core/theme/theme.dart';
-import 'package:calculator/app/routes/app_routes.dart';
+
+import 'package:calculatorapp/app/core/theme/theme.dart';
+import 'package:calculatorapp/app/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
